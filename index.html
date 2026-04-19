@@ -21,159 +21,220 @@
 </head>
 
 <body class="p-3 m-0 border-0 bd-example">
-  <nav class="navbar navbar-expand-md bg-light container-fluid">
-    <a class="navbar-brand" href="#"><img src="assets/images/Netsky Logo.png" alt="POWER web" width="100" height="100">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="#">home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href=" #">shop</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">subpagina 1</a></li>
-            <li><a class="dropdown-item" href="#">subpagina 2</a></li>
-            <li><a class="dropdown-item" href="#">subpagina 3</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">contact</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="zoeken" aria-label="Search">
-        <button class="btn btn-sm btn-outline-secondary" type="submit">zoeken</button>
-      </form>
+
+  <nav class="navbar navbar-expand-lg bg-light py-2">
+    <div class="container">
+
+      <!-- LOGO -->
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/Netsky Logo.png" alt="Netsky Logo" width="100" height="100">
+      </a>
+
+      <!-- Toggling -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+
+          <!--Zoeken-->
+          <li class="nav-item ms-2">
+            <form class="d-flex">
+              <input class="form-control form-control-sm" type="search" placeholder="zoeken">
+            </form>
+          </li>
+
+          <!--Home-->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">home</a>
+          </li>
+
+          <!-- Portfolio -->
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">portfolio</a>
+          </li>
+
+          <!-- Projecten -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">projecten</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="project-1.html">project 1</a></li>
+              <li><a class="dropdown-item" href="project-2.html">project 2</a></li>
+              <li><a class="dropdown-item" href="project-3.html">project 3</a></li>
+              <li><a class="dropdown-item" href="project-4.html">project 4</a></li>
+              <li><a class="dropdown-item" href="project-5.html">project 5</a></li>
+              <li><a class="dropdown-item" href="project-6.html">project 6</a></li>
+            </ul>
+          </li>
+
+          <!-- Contact -->
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a>
+          </li>
+
+        </ul>
+      </div>
+
     </div>
   </nav>
 
-  <header class="row m-5">
-    <h1 class="col display-3 blauwgrijs text-center">may the power<br>be with you</h1>
+  <header class="container my-4">
+    <figure class="mb-0">
+      <img src="assets/images/Voorpagina Afbeelding.jpg" class="img-fluid" alt="project afbeelding 6"
+        title="project 6 afbeelding">
+      <figcaption class="small mt-2">&copy;</figcaption>
+    </figure>
   </header>
+  <hr>
 
   <div class="container">
     <div class="row">
-      <main class="col-md-9">
-        <section id="shopintro" class="row">
-          <article class="col-12 mb-3">
-            <h2 class="text-uppercase fs-5 fw-bolder pt-3">shop</h2>
-            <p>In deze webshop vind je een uitgebreide collectie handleidingen en boeken over hard- en software, met een
-              focus op netwerken en Internet of Things (IoT). Of je nu wilt leren hoe je een betrouwbaar netwerk opzet
-              of de mogelijkheden van slimme apparaten wilt verkennen, ons assortiment biedt voor elk niveau de juiste
-              tools. Van beginners die de basisprincipes willen begrijpen tot professionals die de nieuwste
-              technologieën willen ontdekken, onze selectie bevat alles wat je nodig hebt. Met onze zorgvuldig
-              samengestelde vakliteratuur kun je jouw kennis verdiepen en je vaardigheden in netwerken en IoT verder
-              ontwikkelen.</p>
+      <main class="col-12">
+
+        <section id="projecten" class="container my-5">
+          <article class="row align-items-center">
+            <figure class="col-md-6">
+              <img src="assets/images/Cloud afbeelding.jpg" class="img-fluid" alt="project afbeelding 1"
+                  title="project 1 afbeelding">
+              <figcaption></figcaption>
+            </figure>
+            <div class="col-md-6">
+              <h2 class="text-uppercase">project 1</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci ea sunt repellendus laboriosam numquam explicabo excepturi dolorem consectetur earum officia totam fugiat, ipsam autem, dolore mollitia velit? Odio atque voluptate corporis quam quos autem mollitia tempore? Laborum quas tempora, numquam error tenetur similique suscipit fugit accusamus modi repellat minus perspiciatis a debitis omnis laudantium quos sint facere earum vel! Delectus nobis assumenda similique blanditiis saepe. Ad, quidem illo? Architecto sequi quidem quam repudiandae fuga veritatis laboriosam ipsa libero id, quas ratione voluptatibus repellendus impedit itaque</p>
+              <a href="#">project 1</a>
+            </div>
+          </article>
+          <hr>
+            
+          <article class="row align-items-center">
+            <div class="col-md-6">
+              <h2 class="text-uppercase">project 2</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci ea sunt repellendus laboriosam numquam explicabo excepturi dolorem consectetur earum officia totam fugiat, ipsam autem, dolore mollitia velit? Odio atque voluptate corporis quam quos autem mollitia tempore? Laborum quas tempora, numquam error tenetur similique suscipit fugit accusamus modi repellat minus perspiciatis a debitis omnis laudantium quos sint facere earum vel! Delectus nobis assumenda similique blanditiis saepe. Ad, quidem illo? Architecto sequi quidem quam repudiandae fuga veritatis laboriosam ipsa libero id, quas ratione voluptatibus repellendus impedit itaque</p>
+              <a href="#">project 2</a>
+            </div>
+            <figure class="col-md-6">
+              <img src="assets/images/Datarack afbeelding.jpg" class="img-fluid" alt="project afbeelding 2"
+                  title="project 2 afbeelding">
+              <figcaption></figcaption>
+            </figure>
           </article>
           <hr>
 
-          <article class="shop-item col-12 col-sm-6 col-md-4">
-            <h2 class="text-uppercase fs-6 fw-bolder pt-3">systeem</h2>
-            <p class="h6 small">systemen bekabelen</p>
-            <a href="#" rel="noopener">
-              <figure>
-                <img src="assets/images/boek-snb-1.webp" class="img-fluid" alt="foto van systeem"
-                  title="systemen bekabelen">
-                <figcaption class="h6 small mt-2">&copy; dall.e</figcaption>
-              </figure>
-            </a>
+          <article class="row align-items-center">
+            <figure class="col-md-6">
+              <img src="assets/images/Kabels afbeelding.jpg" class="img-fluid" alt="project afbeelding 3"
+                  title="project 3 afbeelding">
+              <figcaption></figcaption>
+            </figure>
+            <div class="col-md-6">
+              <h2 class="text-uppercase">project 3</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci ea sunt repellendus laboriosam numquam explicabo excepturi dolorem consectetur earum officia totam fugiat, ipsam autem, dolore mollitia velit? Odio atque voluptate corporis quam quos autem mollitia tempore? Laborum quas tempora, numquam error tenetur similique suscipit fugit accusamus modi repellat minus perspiciatis a debitis omnis laudantium quos sint facere earum vel! Delectus nobis assumenda similique blanditiis saepe. Ad, quidem illo? Architecto sequi quidem quam repudiandae fuga veritatis laboriosam ipsa libero id, quas ratione voluptatibus repellendus impedit itaque</p>
+              <a href="#">project 3</a>
+            </div>
           </article>
-          <article class="shop-item col-12 col-sm-6 col-md-4">
-            <h2 class="text-uppercase fs-6 fw-bolder pt-3">netwerk</h2>
-            <p class="h6 small">netwerken beveiligen</p>
-            <a href="#" rel="noopener">
-              <figure><img src="assets/images/boek-snb-2.webp" class="img-fluid" alt="foto van netwerk"
-                  title="netwerken beveiligen">
-                <figcaption class="h6 small mt-2">&copy; dall.e</figcaption>
-              </figure>
-            </a>
+          <hr>
+            
+          <article class="row align-items-center">
+            <div class="col-md-6">
+              <h2 class="text-uppercase">project 4</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci ea sunt repellendus laboriosam numquam explicabo excepturi dolorem consectetur earum officia totam fugiat, ipsam autem, dolore mollitia velit? Odio atque voluptate corporis quam quos autem mollitia tempore? Laborum quas tempora, numquam error tenetur similique suscipit fugit accusamus modi repellat minus perspiciatis a debitis omnis laudantium quos sint facere earum vel! Delectus nobis assumenda similique blanditiis saepe. Ad, quidem illo? Architecto sequi quidem quam repudiandae fuga veritatis laboriosam ipsa libero id, quas ratione voluptatibus repellendus impedit itaque</p>
+              <a href="#">project 4</a>
+            </div>
+            <figure class="col-md-6">
+              <img src="assets/images/Netwerk afbeelding.webp" class="img-fluid" alt="project afbeelding 4"
+                  title="project 4 afbeelding">
+              <figcaption></figcaption>
+            </figure>
           </article>
-          <article class="shop-item col-12 col-sm-6 col-md-4">
-            <h2 class="text-uppercase fs-6 fw-bolder pt-3">beheer</h2>
-            <p class="h6 small">met dé ultieme Vaya-manual</p>
-            <a href="#" rel="noopener">
-              <figure><img src="assets/images/boek-snb-3.webp" class="img-fluid" alt="foto van beheer"
-                  title="dé ultieme Vaya-manual">
-                <figcaption class="h6 small mt-2">&copy; dall.e</figcaption>
-              </figure>
-            </a>
+          <hr>
+
+          <article class="row align-items-center">
+            <figure class="col-md-6">
+              <img src="assets/images/Wereld afbeelding.jpg" class="img-fluid" alt="project afbeelding 5"
+                  title="project 5 afbeelding">
+              <figcaption></figcaption>
+            </figure>
+            <div class="col-md-6">
+              <h2 class="text-uppercase">project 5</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci ea sunt repellendus laboriosam numquam explicabo excepturi dolorem consectetur earum officia totam fugiat, ipsam autem, dolore mollitia velit? Odio atque voluptate corporis quam quos autem mollitia tempore? Laborum quas tempora, numquam error tenetur similique suscipit fugit accusamus modi repellat minus perspiciatis a debitis omnis laudantium quos sint facere earum vel! Delectus nobis assumenda similique blanditiis saepe. Ad, quidem illo? Architecto sequi quidem quam repudiandae fuga veritatis laboriosam ipsa libero id, quas ratione voluptatibus repellendus impedit itaque</p>
+              <a href="#">project 5</a>
+            </div>
           </article>
-          <article class="shop-item col-12 col-sm-6 col-md-4">
-            <h2 class="text-uppercase fs-6 fw-bolder pt-3">internet</h2>
-            <p class="h6 small">safety first!</p>
-            <a href="#" rel="noopener">
-              <figure><img src="assets/images/boek-iot-1.webp" class="img-fluid" alt="foto van internet"
-                  title="safety first!">
-                <figcaption class="h6 small mt-2">&copy; dall.e</figcaption>
-              </figure>
-            </a>
+          <hr>
+            
+          <article class="row align-items-center">
+            <div class="col-md-6">
+              <h2 class="text-uppercase">project 6</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci ea sunt repellendus laboriosam numquam explicabo excepturi dolorem consectetur earum officia totam fugiat, ipsam autem, dolore mollitia velit? Odio atque voluptate corporis quam quos autem mollitia tempore? Laborum quas tempora, numquam error tenetur similique suscipit fugit accusamus modi repellat minus perspiciatis a debitis omnis laudantium quos sint facere earum vel! Delectus nobis assumenda similique blanditiis saepe. Ad, quidem illo? Architecto sequi quidem quam repudiandae fuga veritatis laboriosam ipsa libero id, quas ratione voluptatibus repellendus impedit itaque</p>
+              <a href="#">project 6</a>
+            </div>
+            <figure class="col-md-6">
+              <img src="assets/images/Voorpagina Afbeelding.jpg" class="img-fluid" alt="project afbeelding 6"
+                  title="project 6 afbeelding">
+              <figcaption></figcaption>
+            </figure>
           </article>
-          <article class="shop-item col-12 col-sm-6 col-md-4">
-            <h2 class="text-uppercase fs-6 fw-bolder pt-3">'of'... or other</h2>
-            <p class="h6 small">smart iot-programming</p>
-            <a href="#" rel="noopener">
-              <figure><img src="assets/images/boek-iot-2.webp" class="img-fluid" alt="foto van iot boek"
-                  title="smart iot-programming">
-                <figcaption class="h6 small mt-2">&copy; dall.e</figcaption>
-              </figure>
-            </a>
-          </article>
-          <article class="shop-item col-12 col-sm-6 col-md-4">
-            <h2 class="text-uppercase fs-6 fw-bolder pt-3">things</h2>
-            <p class="h6 small">with the casa hermans API</p>
-            <a href="#" rel="noopener">
-              <figure><img src="assets/images/boek-iot-3.webp" class="img-fluid" alt="foto van things"
-                  title="the casa hermans API">
-                <figcaption class="h6 small mt-2">&copy; dall.e</figcaption>
-              </figure>
-            </a>
-          </article>
+          <hr>
+
         </section>
-        <hr>
       </main>
 
-      <aside class="col-md-3 border-start ps-5">
-        <h2 class="text-uppercase fs-5 fw-bolder pt-3">contact</h2>
-        <p>POWER web<br>
-          <a href="mailto:powerweb@ap.be">powerweb@ap.be</a><br>
-          +32 45 67 89
-        </p>
-        <ul class="list-inline socials">
-          <li class="list-inline-item">
-            <a href="https://www.youtube.com" target="_blank">
-              <i class="bi bi-youtube blauwgrijs fs-6"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.instagram.com" target="_blank">
-              <i class="bi bi-instagram blauwgrijs fs-6"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com" target="_blank">
-              <i class="bi bi-facebook blauwgrijs fs-6"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://twitter.com/" target="_blank">
-              <i class="bi bi-twitter blauwgrijs fs-6"></i>
-            </a>
-          </li>
-        </ul>
-      </aside>
+      <aside></aside>
     </div>
   </div>
-  <footer class="container-fluid bg-light text-center h6 small p-4">&copy; jaartal POWER web enzo</footer>
+  <footer class="container-fluid bg-light h6 small p-4">
+
+    <section class="container">
+
+      <section class="row text-center align-items-center">
+
+        <section class="col-md-4 mb-3 mb-md-0 text-md-start text-center">
+          <h2 class="text-uppercase fs-5 fw-bold">Social Media</h2>
+          <ul class="list-inline socials">
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com" target="_blank">
+                <i class="bi bi-youtube blauwgrijs fs-6"></i>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="bi bi-instagram blauwgrijs fs-6"></i>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com" target="_blank">
+                <i class="bi bi-facebook blauwgrijs fs-6"></i>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="https://twitter.com/" target="_blank">
+                <i class="bi bi-twitter-x blauwgrijs fs-6"></i>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+
+        <section class="col-md-4 text text-center">
+          <h2 class="text-uppercase fs-5 fw-bold mb-3"></h2>
+          <img src="assets/images/Netsky Logo.png" alt="Netsky Logo" class="img-fluid">
+          <p class="small mt-2 mb-0">&copy; Netsky Solutions</p>
+        </section>
+
+        <section class="col-md-4 text-md-end text-center">
+          <h2 class="text-uppercase fs-5 fw-bold">Contact</h2>
+          <p class="mb-0">Netsky <br>
+          <a href="mailto:yoni.vandevyver@student.ap.be">yoni.vandevyver@student.ap.be</a><br>+32 45 67 89</p>
+        </section>
+
+      </section>
+    </section>
+  </footer>
 </body>
 
 </html>
