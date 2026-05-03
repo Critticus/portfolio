@@ -13,30 +13,34 @@ body {
 a,
 a:hover {
   text-decoration: none;
-  color: #587e8c;
+  color: #3D90D9;
 }
 
 .blauwgrijs {
-  color: #587e8c;
+  color: #3D90D9;
 }
 
 span {
-  color: red;
+  color: #D92B2B;
 }
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #587e8c;
-  --bs-btn-border-color: #587e8c;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #113743;
-  --bs-btn-hover-border-color: #113743;
+  --bs-btn-bg: #D92B2B;
+  --bs-btn-border-color: #D92B2B;
+
+  --bs-btn-hover-color: #113743;
+  --bs-btn-hover-bg: #F2D335;
+  --bs-btn-hover-border-color: #F2D335;
+
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
+
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #113743;
   --bs-btn-active-border-color: #113743;
+
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #587e8c;
-  --bs-btn-disabled-border-color: #587e8c
+  --bs-btn-disabled-bg: #D92B2B;
+  --bs-btn-disabled-border-color: #D92B2B
 }
