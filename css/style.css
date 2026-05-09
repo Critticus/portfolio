@@ -18,11 +18,17 @@ a:hover {
 
 .blauwgrijs {
   color: #3D90D9;
+  background-color: #3D90D9;
 }
 
 span {
   color: #D92B2B;
 }
+
+.netsky-geel {
+  color: #F2D335;
+}
+
 
 .btn-primary {
   --bs-btn-color: #fff;
