@@ -15,7 +15,7 @@
   <!-- JavaScript: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer>
-    </script>
+  </script>
   <!-- eigen geschreven css voor jouw html-bestand -->
   <link rel="stylesheet" href="css/style.css">
 
@@ -28,11 +28,7 @@
   <link rel="stylesheet" href="css/map.css">
   <!-- voeg de leaflet.js javascript toe aan de pagina en check de integriteit ervan -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
-
-  <!-- eigen geschreven css voor jouw html-bestand -->
-  <link rel="stylesheet" href="css/style.css">
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
 
     <!-- voeg JavaScript-bestanden (map-ap.js, map-parking.js, script-parking.js en script.js) toe aan de pagina en laad het als de pagina geladen is (gebruik het woord "defer") -->
   <script src="js/map-ap.js" defer></script>
@@ -105,40 +101,45 @@
 
           <!--Links Formulier-->
           <section class="col-12 col-lg-4">
-            <form action="#" method="post" class="border rounded-4 p-4 bg-light">
+            <form name="contact" data-netlify="true" method="POST" class="border rounded-4 p-4 bg-light">
+              <input type="hidden" name="form-name" value="contact">
 
               <fieldset class="row g-3">
                 <legend class="text-uppercase fs-6 fw-bolder">persoonlijke info</legend>
 
-                <label for="voornaam" class="col-12" form-label>
+                <label for="voornaam" class="col-12 form-label">
                   voornaam <span class="required">*</span>
-                  <input type="text" id="voornaam" name="voornaam" class="form-control">
+                  <input type="text" id="voornaam" name="voornaam" class="form-control" required>
                 </label>
 
-                <label for="achternaam" class="col-12" form-label>
+                <label for="achternaam" class="col-12 form-label">
                   achternaam <span class="required">*</span>
-                  <input type="text" id="achternaam" name="achternaam" class="form-control">
+                  <input type="text" id="achternaam" name="achternaam" class="form-control" required>
                 </label>
 
-                <label for="email" class="col-12" form-label>
+                <label for="email" class="col-12 form-label">
                   e-mail <span class="required">*</span>
-                  <input type="email" id="email" name="email" class="form-control">
+                  <input type="email" id="email" name="email" class="form-control" required>
                 </label>
 
-                <label for="mobiel" class="col-12" form-label>
-                  mobiel <span class="required">*</span>
+                <label for="mobiel" class="col-12 form-label">
+                  mobiel
                   <input type="tel" id="mobiel" name="mobiel" class="form-control" placeholder="+32 12 34 56 78">
                 </label>
 
-                <label for="onderwerp" class="col-12" form-label>
+                <label for="onderwerp" class="col-12 form-label">
                   onderwerp <span class="required">*</span>
-                  <input type="text" id="onderwerp" name="onderwerp" class="form-control">
+                  <input type="text" id="onderwerp" name="onderwerp" class="form-control" required>
                 </label>
 
-                <label for="bericht" class="col-12" form-label>
-                  bericht
-                  <textarea id="bericht" name="bericht" class="form-control" rows="5"></textarea>
+                <label for="bericht" class="col-12 form-label">
+                  bericht <span class="required">*</span>
+                  <textarea id="bericht" name="bericht" class="form-control" rows="5" required></textarea>
                 </label>
+
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Verzenden</button>
+                </div>
 
               </fieldset>
 
@@ -229,12 +230,12 @@
         <section class="col-md-4 text text-center">
           <h2 class="text-uppercase fs-5 fw-bold mb-3"></h2>
           <img src="assets/images/Netsky Logo.png" alt="Netsky Logo" class="img-fluid">
-          <p class="small mt-2 mb-0">&copy; Yoni Van de Vyver - Netsky Solution</p>
+          <p class="small mt-2 mb-0">&copy; Yoni Van de Vyver - Netsky Solutions</p>
         </section>
 
         <section class="col-md-4 text-md-end text-center">
           <h2 class="text-uppercase fs-5 fw-bold">Contact</h2>
-          <p class="mb-0">Netsky <br>
+          <p class="mb-0">Netsky Solutions<br>
           <a href="mailto:yoni.vandevyver@student.ap.be">yoni.vandevyver@student.ap.be</a><br>+32 45 67 89</p>
         </section>
 
