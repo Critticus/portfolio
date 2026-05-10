@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project-3</title>
+  <!-- resetten van browsers -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Bootstrap CSS icons: https://icons.getbootstrap.com/#usage -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- JavaScript: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer>
+  </script>
+  <!-- eigen geschreven css voor jouw html-bestand -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="p-3 m-0 border-0 bd-example">
+
+  <nav class="navbar navbar-expand-lg bg-light py-2">
+    <div class="container">
+
+      <!-- LOGO -->
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/Netsky-Logo.png" alt="Netsky-Logo" width="100" height="100">
+      </a>
+
+      <!-- Toggling -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">home</a>
+          </li>
+
+          <!-- Portfolio -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="portfolio.html">portfolio</a>
+          </li>
+
+          <!-- Projecten -->
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">projecten</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="enterprise-networking.html">Enterprise Networking</a></li>
+              <li><a class="dropdown-item" href="portfolio-website.html">Portfolio Website</a></li>
+              <li><a class="dropdown-item" href="zabbix-monitoring.html">Zabbix Monitoring</a></li>
+              <li><a class="dropdown-item" href="project-4.html">project 4</a></li>
+              <li><a class="dropdown-item" href="project-5.html">project 5</a></li>
+              <li><a class="dropdown-item" href="project-6.html">project 6</a></li>
+            </ul>
+          </li>
+
+          <!-- Contact -->
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <header class="container my-4">
+    <figure class="mb-0">
+      <img src="assets/images/Cloud-afbeelding.jpg" class="img-fluid" alt="Cloud-afbeelding"
+        title="Cloud-afbeelding">
+      <figcaption class="small mt-2">&copy; AI gegenereerde afbeelding</figcaption>
+    </figure>
+  </header>
+  <hr>
+
+      <main class="container">
+
+        <h1 class="text-primary mb-4">Project 3 - Zabbix Monitoring</h1>
+
+        <section class="mb-4">
+          <p>
+            Dit project focust op auditing en monitoring binnen een netwerkomgeving. Het doel was om inzicht te krijgen in de status en prestaties van systemen door een centraal monitoringsplatform op te zetten met Zabbix.
+          </p>
+        </section>
+
+        <article class="row g-4">
+
+          <section class="col-12 col-md-6">
+            <p>Tijdens dit project heb ik een Zabbix-server geïnstalleerd en geconfigureerd om verschillende toestellen binnen het netwerk te monitoren. Hierbij werden hosts toegevoegd en gekoppeld via agents en SNMP, zodat gegevens zoals CPU-gebruik, geheugen en netwerkverkeer konden worden opgevolgd.</p>
+          </section>
+
+          <section class="col-12 col-md-6">
+            <p>Daarnaast heb ik verschillende triggers en alerts ingesteld om automatisch meldingen te krijgen bij problemen, zoals hoge belasting of uitval van systemen. Hierdoor kon ik sneller reageren op fouten en de beschikbaarheid van het netwerk verbeteren.</p>
+          </section>
+
+          <section class="col-12 col-md-6">
+            <p>Voor auditing heb ik gebruik gemaakt van logs en historische data binnen Zabbix om het gedrag van systemen te analyseren. Dit maakte het mogelijk om trends te herkennen en potentiële problemen op voorhand te identificeren.</p>
+          </section>
+
+          <section class="col-12 col-md-6">
+            <p>Tot slot heb ik dashboards en grafieken opgesteld om de verzamelde data overzichtelijk weer te geven. Dit zorgde ervoor dat de status van het netwerk in één oogopslag duidelijk werd en het beheer efficiënter kon verlopen.</p>
+          </section>
+
+        </article>
+
+        <hr>
+
+        <section class="my-5">
+          <h2 class="text-uppercase fs-5 fw-bolder mb-3">Monitoring overzicht</h2>
+          <p>Hier zie je voorbeelden van een Zabbix monitoring tool</p>
+       
+
+          <section id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+            <section class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </section>
+
+            <section class="carousel-inner">
+
+              <div class="carousel-item active">
+                <figure class="mb-0">
+                  <img src="assets/images/Zabbix-Dashboard.png" class="d-block w-100" alt="Zabbix Dashboard">
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5>Zabbix Dashboard</h5>
+                    <p>&copy; AI gegenereerde afbeelding</p>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="carousel-item">
+                <figure class="mb-0">
+                  <img src="assets/images/Zabbix-Host.png" class="d-block w-100" alt="Zabbix Host">
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5>Zabbix Host</h5>
+                    <p>&copy; AI gegenereerde afbeelding</p>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="carousel-item">
+                <figure class="mb-0">
+                  <img src="assets/images/Zabbix-Map.png" class="d-block w-100" alt="Zabbix Map">
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5>Zabbix Map</h5>
+                    <p>&copy; AI gegenereerde afbeelding</p>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="carousel-item">
+                <figure class="mb-0">
+                  <img src="assets/images/Zabbix-Problems.png" class="d-block w-100" alt="Zabbix Problems">
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5>Zabbix Problems</h5>
+                    <p>&copy; AI gegenereerde afbeelding</p>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="carousel-item">
+                <figure class="mb-0"></figure>
+                  <img src="assets/images/Zabbix-Triggers.png" class="d-block w-100" alt="Zabbix Triggers">
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5>Zabbix Triggers</h5>
+                    <p>&copy; AI gegenereerde afbeelding</p>
+                  </figcaption>
+                </figure>
+              </div>
+
+            </section>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+          </section>
+
+        </section>
+        <hr>
+
+
+      </main>
+
+  <aside></aside>
+
+  <footer class="container-fluid bg-light h6 small p-4">
+
+    <section class="container">
+
+      <section class="row text-center align-items-center">
+
+        <section class="col-md-4 mb-3 mb-md-0 text-md-start text-center">
+          <h2 class="text-uppercase fs-5 fw-bold">Social Media</h2>
+          <ul class="list-inline socials">
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com" target="_blank">
+                <i class="bi bi-youtube btn btn-primary fs-6"></i>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="bi bi-instagram btn btn-primary fs-6"></i>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com" target="_blank">
+                <i class="bi bi-facebook btn btn-primary fs-6"></i>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="https://twitter.com/" target="_blank">
+                <i class="bi bi-twitter-x btn btn-primary fs-6"></i>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+
+        <section class="col-12 col-md-4 text text-center">
+          <h2 class="text-uppercase fs-5 fw-bold mb-3"></h2>
+          <img src="assets/images/Netsky-Logo.png" alt="Netsky-Logo" class="img-fluid">
+          <p class="small mt-2 mb-0">&copy; Yoni Van de Vyver - Netsky Solutions</p>
+        </section>
+
+        <section class="col-md-4 text-center text-md-end mt-4 mt-md-0">
+          <h2 class="text-uppercase fs-5 fw-bold">Contact</h2>
+          <p class="mb-0">Netsky Solutions<br>
+          <a href="mailto:yoni.vandevyver@student.ap.be">yoni.vandevyver@student.ap.be</a><br>+32 45 67 89</p>
+        </section>
+
+      </section>
+    </section>
+  </footer>
+</body>
+
+</html>
